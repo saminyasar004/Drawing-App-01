@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  cursor: default;
+  overflow-x: hidden;
+  font-family: "Helvetica nue", sans-serif;
+}
+
+#canvas {
+  border: 1px solid rebeccapurple;
+  display: block;
+  margin: 2% auto;
+}
+
+.toolbox {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  background: rebeccapurple;
+  padding: 0.5rem;
+}
+
+.inner-toolbox {
+  width: 20%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 0.3rem 0.8rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.size {
+  color: #fff;
+}
